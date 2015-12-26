@@ -16,7 +16,7 @@ Find closing symbol (parentheses, curly braces...)
 var findClosingSymbol = require('find-closing-symbol');
 var findClosingParenthesis = findClosingSymbol('(', ')');
 
-findClosingParenthesis('(', ')', '2 + (5 + 1)) * 5'); // => 12
+findClosingParenthesis('2 + (5 + 1)) * 5'); // => 12
 ```
 
 See [spec](test/spec.js).
