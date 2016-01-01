@@ -13,8 +13,8 @@ Find closing symbol (parentheses, curly braces...)
 ## Usage
 
 ```js
-var findClosingSymbol = require('find-closing-symbol');
-var findClosingParenthesis = findClosingSymbol('(', ')');
+var findClosingSymbolFactory = require('find-closing-symbol');
+var findClosingParenthesis = findClosingSymbolFactory('(', ')');
 
 findClosingParenthesis('2 + (5 + 1)) * 5'); // => 12
 ```
